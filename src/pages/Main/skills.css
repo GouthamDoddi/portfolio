@@ -1,0 +1,26 @@
+.list-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .column {
+    width: 48%; /* Adjust as needed */
+    margin-left: 51px;
+    margin-top: 21px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  ul li {
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  ul li::before {
+    content: "\2192"; /* Unicode arrow character */
+    position: absolute;
+    left: -20px;
+  }
