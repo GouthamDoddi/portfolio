@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "deploy": "threeJS -d dist -b threeJS"
+    "deploy": "gh-pages -d dist -b threeJS"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
