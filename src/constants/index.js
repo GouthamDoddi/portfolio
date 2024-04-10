@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla, adroitco } from "../assets/images";
 import {
     car,
     contact,
@@ -23,7 +23,8 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    django
 } from "../assets/icons";
 
 export const skills = [
@@ -106,60 +107,79 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
+    },
+    {
+        imageUrl: django,
+        name: "Django",
+        type: "Backend",
     }
 ];
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Frontend Software Engineer",
+        company_name: "ADROITCO L.L.C.",
+        icon: adroitco,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "12/2023 TO 03/2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "During a critical crunch period, I developed and deployed dashboards and applications for PLUTUS TELERADIOLOGY..",
+            "I leveraged technologies like React, Redux, Chakra UI, and Material-UI (MUI) to develop dynamic websites using TypeScript, following best practices.",
+            "I have successfully created and deployed four applications in a span of three months, including an ERP system, a file drive application, and two others.",
+            
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "FULL STACK Software Engineer",
+        company_name: "DHENUSYA INFOTECH",
+        icon: starbucks,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "01/2023 TO 11/2023 ",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Built a marketing tool that creates and carries marketing campaigns across platforms like email, WhatsApp and SMS. Integrated technologies such as TWILIO and SENDGRID.Z",
+            "Lead a team of back-end developers ensured best practices followed.",
+            "I've developed backend applications using Node.js, containerized them with Docker, and seamlessly deployed them to the AWS Container Registry..",
+            "Implemented Test-Driven Development (TDD) lifecycle, resulting in significantly reduced bugs and streamlined development timelines.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
+        title: "Product Developer",
+        company_name: "Apollo Tele Health",
         icon: shopify,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "01/2022 to 01/2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Joined a three-member development team for an ERP software project, leveraging my testing experience from TEENAGERSTARTUPS.COM to identify and address issues such as MISSING MIGRATIONS AND SUB-OPTIMAL CODE QUALITY. ",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Proactively communicated findings to management and advocated for the implementation of guidelines along with a detailed ER DIAGRAM to enhance software quality.",
+            "Furthermore, I single handedly developed a comprehensive dashboard showcasing analytics on MANPOWER REQUISITION and COVID-19 VACCINATION statistics.",
+            "Created user-friendly on-boarding screens for new users registering to https://rise.hng.co.in/ .",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
+        title: "FULL STACK Software Engineer",
+        company_name: "ZITISI SOLUTIONS",
+        icon: starbucks,
+        iconBg: "#a2d2ff",
+        date: "11/2020 TO 12/2021 ",
+        points: [
+            "I single handedly developed a cross-platform mobile app called ShareYourTruck, handling both front-end and back-end responsibilities. ",
+            "Engaged in a dynamic development lifecycle, contributing to the creation of a large-scale website for government of Qatar.",
+            "Reduced development time by deploying REST APIs using a server-less architecture.",
+            "Techstack: REACT NATIVE, REACT, NODEJS, POSTGRESQL, MONGODB ATLAS, REST APIS AND WEBHOOKS.",
+        ],
+    },
+    {
+        title: "Software Test Engineer (remote)",
+        company_name: "TEENAGERSTARTUPS.COM",
         icon: meta,
         iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        date: "01/2022 TO 11/2020  ",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Implemented backend test cases using Django's UNITTEST framework and conducted frontend tests with SELENIUM.",
+            "I containerized the application using Docker and Docker Compose, and established CI pipelines in GitLab.",
+            "Utilized browser testing tools such as BrowserStack and LambdaTest.",
+            "Achieved a total of 90% test coverage.",
         ],
     },
 ];
@@ -173,56 +193,50 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/GouthamDoddi',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/goutham-doddi-22441b138',
     }
 ];
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: django,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Blog site',
+        description: 'Developed a blog website using Django, it includes rest apis for all blog data using Django Rest. Users can create accounts and write blogs.',
+        link: 'https://github.com/GouthamDoddi/blogsitecode',
     },
     {
-        iconUrl: threads,
+        iconUrl: django,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Scalable Rest API Django-Rest',
+        description: 'Powerfull recipe maker rest apis created using Django Rest developed following test driven development, testes hosted in Travis.CI ',
+        link: 'https://github.com/GouthamDoddi/recipe-app-api',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Share your Truck',
+        description: 'Cross Platform React-Native application that connects users with truck-drivers and allows them to trasport their goods. ',
+        link: 'https://github.com/GouthamDoddi/SYTscreens',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: '3d portfolio',
+        description: 'This 3d portfolio website is built using Three.js. Using Three.js we can render 3d models into a react application. ',
+        link: 'https://github.com/GouthamDoddi/GouthamDoddi.github.io',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Book reviews application',
+        description: "Part of Harward's CS-50 program, this application pulls data from good reads apis and allows users to share book reviews.",
+        link: 'https://github.com/GouthamDoddi/CS50-project1',
     },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+
 ];
