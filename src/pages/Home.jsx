@@ -89,7 +89,7 @@ const Home = () => {
                 <Sky isRotating={isRotating}/>
                 <Island position={islandPosition} scale={islandScale} rotation={islandRotation} isRotating={isRotating} 
                 setIsRotating={setIsRotating} setCurrentStage={setCurrentStage} />
-                <Plane position={ planePosition } scale={planeScale} isRotating={isRotating} rotation={[0, 20, 0]} />
+                <Plane position={ planePosition } scale={planeScale} isRotating={isRotating} rotation={[0, 20, 0]} speed={2} />
 
             </Suspense>
 
