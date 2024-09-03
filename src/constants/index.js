@@ -117,29 +117,17 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "Frontend Software Engineer",
-        company_name: "ADROITCO L.L.C.",
-        icon: adroitco,
-        iconBg: "#accbe1",
-        date: "12/2023 TO 03/2023",
-        points: [
-            "During a critical crunch period, I developed and deployed dashboards and applications for PLUTUS TELERADIOLOGY..",
-            "I leveraged technologies like React, Redux, Chakra UI, and Material-UI (MUI) to develop dynamic websites using TypeScript, following best practices.",
-            "I have successfully created and deployed four applications in a span of three months, including an ERP system, a file drive application, and two others.",
-            
-        ],
-    },
-    {
         title: "FULL STACK Software Engineer",
         company_name: "DHENUSYA INFOTECH",
         icon: starbucks,
         iconBg: "#fbc3bc",
-        date: "01/2023 TO 11/2023 ",
+        date: "01/2023 TO 8/2024 ",
         points: [
             "Built a marketing tool that creates and carries marketing campaigns across platforms like email, WhatsApp and SMS. Integrated technologies such as TWILIO and SENDGRID.Z",
-            "Lead a team of back-end developers ensured best practices followed.",
-            "I've developed backend applications using Node.js, containerized them with Docker, and seamlessly deployed them to the AWS Container Registry..",
+            "During a critical crunch period, I developed and deployed dashboards and applications for PLUTUS TELERADIOLOGY..",
             "Implemented Test-Driven Development (TDD) lifecycle, resulting in significantly reduced bugs and streamlined development timelines.",
+            "I leveraged technologies like React, Redux, Chakra UI, and Material-UI (MUI) to develop dynamic websites using TypeScript, following best practices.",
+            "Crated a cross platform native mobile application for Emitrates Tast." 
         ],
     },
     {
